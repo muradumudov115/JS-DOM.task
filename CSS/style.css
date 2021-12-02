@@ -1,0 +1,67 @@
+*{
+  margin: 0px;
+  padding:0px;
+  box-sizing: border-box;
+
+
+}
+
+body{
+  height:2000px;
+}
+
+
+.side-bar{
+  width:300px;
+  height:100%;
+  background-color: black;
+  position: fixed;
+  transition:transform 0.5s;
+}
+
+.side-bar i{
+  font-weight: 900;
+  font: size 25px;
+  color: wheat;
+  position:absolute;
+  top: 10px;
+  right:20px;
+}
+.side-bar i:hover{
+  color:white;
+  cursor: pointer;
+}
+ 
+.side-bar ul{
+  padding: 100px;;
+}
+
+.side-bar ul li{
+  padding:10px;
+    list-style:none;
+
+}
+
+.side-bar ul li a{
+  text-decoration:none;
+  color: wheat;
+
+}
+.side-bar ul li a:hover{
+    color: white;
+
+}
+
+.close{
+  transform:translate(-300px,0);
+}
+
+.returnBtn i{
+  font-weight: 900;
+  font: size 45px;
+  color: wheat;
+  position:absolute;
+  top: 10px;
+  right:20px;
+
+}
